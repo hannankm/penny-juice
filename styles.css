@@ -1,0 +1,147 @@
+body{
+    background-color: #DEF5E5;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.nav-link{
+    color:#ef8172;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover{
+    text-decoration: underline rgb(26, 25, 25) 1px;
+}
+
+.header{
+    font-size: 2.2rem;
+    font-weight:900;
+}
+.sub-header{
+    font-size: 1.7rem;
+    font-weight:900;
+}
+button{
+    background-color: #ef8172;
+    color: #fff;
+    font-size: 1rem;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+button:hover{
+    background-color: #e17263;
+}
+.testimonial-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.testimonial{
+    width: 20%;
+    text-align: left;
+    margin: auto 70px;
+}
+/* Sections */
+#title{
+    background-color: #DEF5E5;
+}
+#footer{
+    background-color: #ef8172;
+    margin:0;
+}
+#nutrition{
+    padding: 8% 10%;
+}
+#footer .icons{
+    color: #fff;
+    margin: 20px 10px;
+    position: relative;
+    left: 1030px;
+}
+#nutrition-p .header{
+    margin: auto;
+}
+
+#about-us{
+    padding: 5% 8%;
+}
+.icons{
+    color: #ef8172;
+    margin: 20px 10px;
+}
+
+.navbar{
+    color: #ef8172;
+}
+
+.logo{
+    transform: rotate(-10deg);
+    font-family: 'Sofia', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #ef8172;
+    margin:0 80px 10px 0;;
+    display:inline-block;
+}
+
+.content{
+    position:relative;
+    width: 40%;
+    text-align: left;
+    margin:auto;
+    line-height: 1.5;
+}
+.about{
+    text-align: left;
+    line-height: 1.5;
+    width: 65%;
+    margin-left:200px;
+    padding:150px 50px;
+}
+.watermelon{
+    float: right;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: 0 0 0 80px;
+
+}
+.nutrition-p{
+    text-align: left;
+    line-height: 1.5;
+    width: 80%;
+    margin-left:200px;
+    padding: 50px 0;
+}
+
+.img{
+   float: right;
+   width: 40%;
+   height: 350px;
+   margin-left: 40px;
+}
+
+.img2{
+    float:left;
+    width: 40%;
+    height: 350px;
+    margin-right: 40px;
+    margin-left: 0;
+ }
+ #contact-us{
+    padding: 5% 8%;
+ }
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 5% 8%;
+}
+.row{
+    margin: 0 5%;
+}
